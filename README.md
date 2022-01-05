@@ -82,9 +82,9 @@ Based on the results in Section 5, Catboost encoding data with XGBoost Classifie
 Future works will be focused on fine tuning models of interest, especially the Multilayer Perceptron neural network. In addition, novel feature engineering methods or new machine learning models may also be tested. 
 
 ## 7. Link to Scripts
-1. [API and Web Scraping]()
-2. [Data Wrangling]()
-3. [EDA]()
-4. [Data Preprocessing]()
-5. [Modeling PartI]()
-6. [Modeling Multilayer Perceptron]()
+1. [API and Web Scraping](https://github.com/wh2353/Cardiovascular-Disease-Prediction/blob/main/notebooks/API_and_web_scraping.ipynb)
+2. [Data Wrangling](https://github.com/wh2353/Cardiovascular-Disease-Prediction/blob/main/notebooks/Cardiovascular_data_wrangling.ipynb)
+3. [EDA](https://github.com/wh2353/Cardiovascular-Disease-Prediction/blob/main/notebooks/Cardiovascular_EDA.ipynb)
+4. [Data Preprocessing](https://github.com/wh2353/Cardiovascular-Disease-Prediction/blob/main/notebooks/Cardiovascular_Preprocessing.ipynb)
+5. [Modeling PartI](https://github.com/wh2353/Cardiovascular-Disease-Prediction/blob/main/notebooks/Cardiovascular_modeling_partI.ipynb)
+6. [Modeling Multilayer Perceptron](https://github.com/wh2353/Cardiovascular-Disease-Prediction/blob/main/notebooks/Cardiovascular_modeling_multilayer_perceptron.ipynb)
