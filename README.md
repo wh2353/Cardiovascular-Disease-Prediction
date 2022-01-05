@@ -1,4 +1,4 @@
-<img src="cardiovascular_data.jpg" width="1500" height=300><br>
+<img src="images/cardiovascular_data.jpg" width="1500" height=300><br>
 # Cardiovascular Disease Prediction
 *<p align='left'> Cardiovascular diseases (CVD) is the leading cause of death in the United States and it is estimated that 659,000 Americans die from CVD each year. The cause of CVD is complicated and risk factors that contribute to CVD are still unclear. Thus it is imperative to identify the direct indicators for cardiovascular disease in order to facilitate CVD diagnosis and treatment. In this project, I explored the relationship among a few potential cardiovascular risk factors, then checked on their predictibility against CVD through various machine learning models.</p>*
 ## 1. Data Source
@@ -20,7 +20,7 @@ After preprocessing, the trimmed dataset shape is (68588 X 11). As shown in the 
 ## 3. Exploratory Data Analysis (EDA)
 <p align='left'><b>Method:</b> I performed PCA and t-SNE to see whether the positive (1) and negative (0) samples can be separated in 2 dimensions. In addition, I checked if any of the features are significantly different between healthy and diseased groups.<br>
 <b>Results:</b><br>
-<img src="eda_PCA.png" width=300 height=250>  <img src="eda_tSNE.png" width=300 height=250><br>
+<img src="images/eda_PCA.png" width=300 height=250>  <img src="images/eda_tSNE.png" width=300 height=250><br>
 Both PCA and t-SNE are not able to separate normal (0) and diseased (1) samples in 2D space.<br><br>
 <img src="images/eda_barplot_ap.png" width=300 height=250>  <img src="images/eda_barplot_cat.png" width=300 height=250><br>
 High and low blood pressure (ap_hi and ap_lo) as well as cholestrol level appear to be different between normal and diseased groups.<br></p>
