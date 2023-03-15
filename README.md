@@ -28,7 +28,7 @@ High and low blood pressure (ap_hi and ap_lo) as well as cholestrol level appear
 ## 4. Data Preprocessing
 <p align='left'><b>Method:</b> Data are preprocessing with three different methods:<br>
 1. Obtain Catboost encoding data from data wrangling step, split train and test data, StandardScale() fit and transform on train data and transform on test data;<br>
-2. Split train and test data from Catboot encoding data, StandardScale() plus PCA with n_component = 'mle' fit and transform on train data and transform on test data;<br>
+2. Split train and test data from Catboost encoding data, StandardScale() plus PCA with n_component = 'mle' fit and transform on train data and transform on test data;<br>
 3. Split train and test data from the orignal fitlered data WITHOUT catboost encoding, utilize <a href="https://www.featuretools.com/"><nobr>featuretools</nobr></a> to generate new features from the train dataset and transform on the test dataset.<br>
 <b>Results:</b><br>
 Method 1 data shape: Train: (54870, 11), Test: (13718, 11)<br>
